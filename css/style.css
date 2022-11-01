@@ -9,7 +9,16 @@
 }
 
 .generic{
-    padding: 100px 0;
+    padding: 95px 0;
+}
+/* header section */
+header#header img{
+    width: 5.8rem;
+    height: 3.7rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 /* Latest Section */
@@ -52,5 +61,16 @@ section#latest .overlay i{
     transform: translateY(20px);
     transition: all .5s;
     opacity: 0;
+    font-size: 2rem;
+}
+
+
+/* Contact section */
+section#contact .icon i{
+    font-size: 1.5rem;
+}
+section#contact .icon:hover i{
+    color: rgba(189,61,75);
+    transition: all .4s;
     font-size: 2rem;
 }
